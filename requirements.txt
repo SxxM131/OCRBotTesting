@@ -1,0 +1,18 @@
+# Hidden Object Game Bot — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Screen capture
+mss==9.0.1
+
+# OCR (Korean)
+easyocr==1.7.1
+
+# Mouse / keyboard control
+pyautogui==0.9.54
+
+# Input listener (used by map_coords.py)
+pynput==1.7.7
+
+# Image processing (EasyOCR dependency, listed explicitly for clarity)
+Pillow==10.3.0
+numpy==1.26.4
